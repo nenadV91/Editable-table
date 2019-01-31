@@ -1,0 +1,69 @@
+.center-cell {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.action-button {
+  font-size: 0.6rem;
+  margin-right: 10px;
+}
+
+input.form-control {
+  height: auto;
+  padding: 0.1rem 0.35rem;
+}
+
+input.form-control:focus {
+  box-shadow: none;
+}
+
+.ReactTable .rt-tbody .rt-td {
+  display: flex;
+  align-items: center;
+}
+
+.ReactTable .rt-tbody .rt-td > div {
+  padding: 3px 5px;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #acacac !important;
+  font-size: 0.85rem;
+}
+textarea::-moz-placeholder,
+input::-moz-placeholder { /* Firefox 19+ */
+  color: #acacac !important;
+  font-size: 0.85rem;
+}
+textarea:-ms-input-placeholder,
+input:-ms-input-placeholder { /* IE 10+ */
+  color: #acacac !important;
+  font-size: 0.85rem;
+}
+textarea:-moz-placeholder,
+input:-moz-placeholder { /* Firefox 18- */
+  color: #acacac !important;
+  font-size: 0.85rem;
+}
+
+.invalid-feedback {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cell {
+  flex: 1;
+}
+
+.empty {
+  color: #adadad;
+  font-size: 0.8rem;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
